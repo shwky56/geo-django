@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "django-geodjango"
+version = "0.1.0"
+description = ""
+authors = ["shwky mhamd <shwkym54@gmail.com>"]
+readme = "README.md"
+packages = [{include = "django_geodjango"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.1.7"
+leaflet = "^0.0.3"
+djangorestframework = "^3.14.0"
+psycopg2 = "^2.9.5"
+psycopg2-binary = "^2.9.5"
+django-leaflet = "^0.28.3"
+djangorestframework-gis = "^1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
